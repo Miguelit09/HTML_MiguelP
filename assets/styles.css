@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  background-color: aliceblue;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 72px;
+  margin-right: 50px;
+}
+#logo {
+  margin-left: 50px;
+  width: 80px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  padding: 3px;
+}
+nav ul li a:hover {
+  color: red;
+  background-color: rgb(99, 235, 121);
+  display: block;
+}
+
